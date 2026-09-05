@@ -1,7 +1,7 @@
-com.google.android.gms
-com.android.vending
-com.google.android.apps.walletnfcrel
-com.google.android.apps.nbu.paisa.user
+com.google.android.gms#
+com.android.vending#
+com.google.android.apps.walletnfcrel#
+com.google.android.apps.nbu.paisa.user#
 com.VCB
 com.vietinbank.ipay
 com.vnpay.bidv
