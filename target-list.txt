@@ -2,5 +2,5 @@ com.google.android.gms#
 com.android.vending#
 com.google.android.apps.walletnfcrel#
 com.google.android.apps.nbu.paisa.user#
-vn.com.techcombank.bb.app?
-com.tpb.mb.gprsandroid?
+vn.com.techcombank.bb.app!
+com.tpb.mb.gprsandroid!
