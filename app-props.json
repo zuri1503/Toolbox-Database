@@ -10,12 +10,16 @@
     "MODEL": "RMX5101"
   },
   "com.dts.freefiremax": {
-    "MANUFACTURER": "INFINIX",
-    "MODEL": "Infinix X6891"
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
   },
   "com.dts.freefireth": {
-    "MANUFACTURER": "INFINIX",
-    "MODEL": "Infinix X6891"
+    "BRAND": "realme",
+    "DEVICE": "Realme 15 Pro 5G",
+    "MANUFACTURER": "realme",
+    "MODEL": "RMX5101"
   },
   "com.ea.gp.apexlegendsmobilefps": {
     "MANUFACTURER": "Xiaomi",
