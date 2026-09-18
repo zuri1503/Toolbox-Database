@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <AndroidAttestation>
 <NumberOfKeyboxes>2</NumberOfKeyboxes>
-<Keybox DeviceID="ProjectZK260916">
+<Keybox DeviceID="ProjectZK260918">
 <Key algorithm="ecdsa">
 <PrivateKey format="pem">
 -----BEGIN EC PRIVATE KEY-----
@@ -84,7 +84,7 @@ uR2zh/80lQyu9vAFCj6E4AXc+osmRg==
 </CertificateChain>
 </Key>
 </Keybox>
-<Keybox>
+<Keybox DeviceID="ProjectZK260918">
 <Key algorithm="ecdsa">
 <PrivateKey format="pem">
 -----BEGIN EC PRIVATE KEY-----
