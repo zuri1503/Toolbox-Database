@@ -1,27 +1,16 @@
-<?xml version="1.0"?>
-<!--
-================================================================================
- Keybox Hub | Play Integrity & Attestation Engine
- Tổng hợp & xác thực bởi / Aggregated & verified by: https://keybox.hzzmonet.io.vn
- Keybox ID: #58 | Status: STRONG | Device ID: Standard Android Attestation
- Exported: 2026-10-08T01:54:46.930Z
-================================================================================
--->
+<?xml version='1.0' encoding='utf-8'?>
 <AndroidAttestation>
-    <NumberOfKeyboxes>1</NumberOfKeyboxes>
-    <Keybox DeviceID="RYU261008">
-        <Key algorithm="ecdsa">
-            <PrivateKey format="pem">
------BEGIN EC PRIVATE KEY-----
+  <NumberOfKeyboxes>1</NumberOfKeyboxes>
+  <Keybox>
+    <Key algorithm="ecdsa">
+      <PrivateKey format="pem">-----BEGIN EC PRIVATE KEY-----
 MHcCAQEEIAwtKP4Cro2x4smMpZnxnqqq/TiCHH1rAk5SV1cj2U3coAoGCCqGSM49
 AwEHoUQDQgAETj/z9e3X/U0q8Kg9SNyXf3thrs62EhSgikejtfFZl3rQkfn/+OLi
 BpPNETy2HMkxswU/jAoOFqzGxAxFOJjWJQ==
------END EC PRIVATE KEY-----
-            </PrivateKey>
-            <CertificateChain>
-                <NumberOfCertificates>3</NumberOfCertificates>
-                <Certificate format="pem">
------BEGIN CERTIFICATE-----
+-----END EC PRIVATE KEY-----</PrivateKey>
+      <CertificateChain>
+        <NumberOfCertificates>3</NumberOfCertificates>
+        <Certificate format="pem">-----BEGIN CERTIFICATE-----
 MIIB9DCCAXmgAwIBAgIQE6u0cS+RjSsMM9J25q4UZjAKBggqhkjOPQQDAjA5MQww
 CgYDVQQMDANURUUxKTAnBgNVBAUTIGFmYjE1NDk5MDZjMjdhODRlZGE0NmYyNDgx
 M2ZiZmEwMB4XDTIyMDEyNTIzMjc1NloXDTMyMDEyMzIzMjc1NlowOTEMMAoGA1UE
@@ -33,10 +22,8 @@ MB0GA1UdDgQWBBSaMkYEisbT63QuoJKhI1ppRan7yTAfBgNVHSMEGDAWgBQIT1dJ
 BDAKBggqhkjOPQQDAgNpADBmAjEA3gq8nEoIVQtv2P24OZlHrbKmSHWYFd4AkO/o
 mm7z/SIdpEZaZM8taHPa+7UsN0jdAjEAghMpZYGjQ+kmgUMaWTBVBDeC/GjyKzJm
 r1ukzx43oNtxD8MI6meRaEKDOFq1h3/B
------END CERTIFICATE-----
-                </Certificate>
-                <Certificate format="pem">
------BEGIN CERTIFICATE-----
+-----END CERTIFICATE-----</Certificate>
+        <Certificate format="pem">-----BEGIN CERTIFICATE-----
 MIIDkzCCAXugAwIBAgIQdf0ZJTfo+lrb+ci6uj5PtjANBgkqhkiG9w0BAQsFADAb
 MRkwFwYDVQQFExBmOTIwMDllODUzYjZiMDQ1MB4XDTIyMDEyNTIzMjUxNloXDTMy
 MDEyMzIzMjUxNlowOTEMMAoGA1UEDAwDVEVFMSkwJwYDVQQFEyBhZmIxNTQ5OTA2
@@ -57,10 +44,8 @@ IGIdM5JjLAdGktxBpjFhrKpxG739pDVnVXbfWOQmHppf11Sh82vDpVlq6k9+W1fm
 VWExlIgTEO3/QTGB4rfFzlYCB6vOhjspaUjgr8mobMZfEic6hu7zMKxXmpipyRFS
 xyLNXUOvEXc/mSkGDErDzrLwPATFIuJeTe2QO/mwvWXD7amMGRo4qzSeU+N6AYM4
 fIKEE1LhNA==
------END CERTIFICATE-----
-                </Certificate>
-                <Certificate format="pem">
------BEGIN CERTIFICATE-----
+-----END CERTIFICATE-----</Certificate>
+        <Certificate format="pem">-----BEGIN CERTIFICATE-----
 MIIFHDCCAwSgAwIBAgIJAMNrfES5rhgxMA0GCSqGSIb3DQEBCwUAMBsxGTAXBgNV
 BAUTEGY5MjAwOWU4NTNiNmIwNDUwHhcNMjExMTE3MjMxMDQyWhcNMzYxMTEzMjMx
 MDQyWjAbMRkwFwYDVQQFExBmOTIwMDllODUzYjZiMDQ1MIICIjANBgkqhkiG9w0B
@@ -89,13 +74,11 @@ HQLE4+EqKFgOZv2EoP686DQqbVS1u+9k0p2xbMA105TBIk7npraa8VM0fnrRKi7w
 lZKwdH+aNAyhbXRW9xsnODJ+g8eF452zvbiKKngEKirK5LGieoXBX7tZ9D1GNBH2
 Ob3bKOwwIWdEFle/YF/h6zWgdeoaNGDqVBrLr2+0DtWoiB1aDEjLWl9FmyIUyUm7
 mD/vFDkzF+wm7cyWpQpCVQ==
------END CERTIFICATE-----
-                </Certificate>
-            </CertificateChain>
-        </Key>
-        <Key algorithm="@evokerr">
-            <PrivateKey format="pem">
------BEGIN RSA PRIVATE KEY-----
+-----END CERTIFICATE-----</Certificate>
+      </CertificateChain>
+    </Key>
+    <Key algorithm="rsa">
+      <PrivateKey format="pem">-----BEGIN RSA PRIVATE KEY-----
 MIIG4wIBAAKCAYEApOTj9ydXLFAajqb2BsS9ujiLVb6WUGFdH8ZLtE5/jCRKvglS
 jKgrLLR3BnexQSxxOQWsW7yJxiC3sYqA29eN5crx3imupRvtuZGG3NMNTpVYz+E5
 dYZ/l+pL3/Lr9OEMPhOEfZIkyoTgoPE3ivbZn3pViT2jjJr7+g1ifCKbiqbbWmcr
@@ -133,12 +116,10 @@ ULPn+nsmPflYdMps6qTW682fm9EdJhBJFrR0SOck7A+1ncxS41puyPwO1W9lJH49
 dMSvlmu2gHnCgB8gDZmAp02aeC14clSWli9MY2i7L8eaIx3cF4TYfgkJKhh+jLxJ
 CYjaeaVNp9S9FerpfLwcWxYwGMV5L2q0+AyX4CoIBLakzjOYCUDoeZLbDO0M7owT
 GWDB1ZeGTcaFoe0hwPsaric8B6LZ+TrGtPQgiveiYrGnJyGmcUme
------END RSA PRIVATE KEY-----
-            </PrivateKey>
-            <CertificateChain>
-                <NumberOfCertificates>3</NumberOfCertificates>
-                <Certificate format="pem">
------BEGIN CERTIFICATE-----
+-----END RSA PRIVATE KEY-----</PrivateKey>
+      <CertificateChain>
+        <NumberOfCertificates>3</NumberOfCertificates>
+        <Certificate format="pem">-----BEGIN CERTIFICATE-----
 MIIE4DCCAsigAwIBAgIRAMZCKDlpHmtjFFYB4MPNtwAwDQYJKoZIhvcNAQELBQAw
 OTEMMAoGA1UEDAwDVEVFMSkwJwYDVQQFEyBhZmIxNTQ5OTA2YzI3YTg0ZWRhNDZm
 MjQ4MTNmYmZhMDAeFw0yMjAxMjUyMzI3NTVaFw0zMjAxMjMyMzI3NTVaMDkxDDAK
@@ -166,10 +147,8 @@ vz22XglV67DgQGZTWD7dBKGVKHCGN3cczF1iZnuvywuZKQIKRkLgxyNGWoELb82V
 QERmDVp+ciS9x+RQzCXkYjumc63ulgQkE3yfiJ1No4gaQMz3f77ou++GgU+dzObE
 kJm+fWMBMirWp759YOi+NweXNG+R+f4HYC7RgkXhPskmXed+FKSMcscq8KEkBZ37
 8pY7Og==
------END CERTIFICATE-----
-                </Certificate>
-                <Certificate format="pem">
------BEGIN CERTIFICATE-----
+-----END CERTIFICATE-----</Certificate>
+        <Certificate format="pem">-----BEGIN CERTIFICATE-----
 MIIFQTCCAymgAwIBAgIQOKEmbK7oOFKaNRU2np88VzANBgkqhkiG9w0BAQsFADAb
 MRkwFwYDVQQFExBmOTIwMDllODUzYjZiMDQ1MB4XDTIyMDEyNTIzMjQ1OVoXDTMy
 MDEyMzIzMjQ1OVowOTEMMAoGA1UEDAwDVEVFMSkwJwYDVQQFEyBhZmIxNTQ5OTA2
@@ -199,10 +178,8 @@ P1jIG8QR8ZzR8bPo+j+SIfe2Q8pXlY5n5Td/xd9fL+7XbOCeJjZ+sgb7bGKbZ+S6
 uuc1/9Js0TyOjM0rwP4Ws72e1KHOfsAjBQE0aCXrCM3NVmCk9nGpkyYmhrtE3p8R
 2t9KQGRiRaf5Ie+PPSvHQisEyqKp6xvN7Fu8bR4Iku2066v+lT6yOaieofCqqeuG
 gUgN4qA=
------END CERTIFICATE-----
-                </Certificate>
-                <Certificate format="pem">
------BEGIN CERTIFICATE-----
+-----END CERTIFICATE-----</Certificate>
+        <Certificate format="pem">-----BEGIN CERTIFICATE-----
 MIIFHDCCAwSgAwIBAgIJAMNrfES5rhgxMA0GCSqGSIb3DQEBCwUAMBsxGTAXBgNV
 BAUTEGY5MjAwOWU4NTNiNmIwNDUwHhcNMjExMTE3MjMxMDQyWhcNMzYxMTEzMjMx
 MDQyWjAbMRkwFwYDVQQFExBmOTIwMDllODUzYjZiMDQ1MIICIjANBgkqhkiG9w0B
@@ -231,10 +208,8 @@ HQLE4+EqKFgOZv2EoP686DQqbVS1u+9k0p2xbMA105TBIk7npraa8VM0fnrRKi7w
 lZKwdH+aNAyhbXRW9xsnODJ+g8eF452zvbiKKngEKirK5LGieoXBX7tZ9D1GNBH2
 Ob3bKOwwIWdEFle/YF/h6zWgdeoaNGDqVBrLr2+0DtWoiB1aDEjLWl9FmyIUyUm7
 mD/vFDkzF+wm7cyWpQpCVQ==
------END CERTIFICATE-----
-                </Certificate>
-            </CertificateChain>
-        </Key>
-    </Keybox>                                                                                                                        <!--Telegram@evokerr t.me/keyboxstrong-->
-  <!-- Tổng hợp bởi Keybox Hub (https://keybox.hzzmonet.io.vn) -->
+-----END CERTIFICATE-----</Certificate>
+      </CertificateChain>
+    </Key>
+  </Keybox>
 </AndroidAttestation>
