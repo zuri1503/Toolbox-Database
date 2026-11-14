@@ -1,2 +1,2 @@
-ro.boot.projectryu=true
-ro.boot.author=ryu
+ro.boot.vbmeta.device_state=locked
+ro.boot.verifiedbootstate=green
